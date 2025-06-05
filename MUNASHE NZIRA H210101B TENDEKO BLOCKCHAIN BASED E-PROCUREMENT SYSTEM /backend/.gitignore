@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
+
+# Virtual environment
+venv/
+.env/
+.env.local/
+
+# Test and coverage reports
+.coverage
+.coverage.*
+nosetests.xml
+*.cover
+*.py,cover
+*.log
+*.tox
+*.nox
+*.hypothesis/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Type hinting
+.pytype/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# FastAPI specific
+Procurement.json
