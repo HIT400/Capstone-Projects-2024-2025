@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.blue.thermal_printer" >
+4
+5    <uses-sdk android:minSdkVersion="18" />
+6
+7    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+7-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:2:5-80
+7-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:2:22-78
+8    <!-- Request legacy Bluetooth permissions on older devices. -->
+9    <uses-permission android:name="android.permission.BLUETOOTH" />
+9-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:4:5-5:11
+9-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:4:22-65
+10    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+10-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:6:5-73
+10-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:6:22-71
+11
+12    <!--
+13         Needed only if your app looks for Bluetooth devices.
+14         You must add an attribute to this permission, or declare the
+15         ACCESS_FINE_LOCATION permission, depending on the results when you
+16         check location usage in your app.
+17    -->
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:12:5-78
+18-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+19-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:13:5-73
+19-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:13:22-70
+20
+21    <!--
+22         Needed only if your app makes the device discoverable to Bluetooth
+23         devices.
+24    -->
+25    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+25-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:17:5-78
+25-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:17:22-75
+26
+27    <!--
+28         Needed only if your app communicates with already-paired Bluetooth
+29         devices.
+30    -->
+31    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+31-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:21:5-76
+31-->C:\Users\User\FlutterProjects\pulsepay\packages\blue_thermal_printer\android\src\main\AndroidManifest.xml:21:22-73
+32
+33</manifest>
