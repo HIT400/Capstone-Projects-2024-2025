@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/practice_pal
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+      database: postgresql
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+  ai:
+    ollama:
+      chat:
+        model: llama2:7b-chat #mistral
+
+logging:
+  level:
+    root: info
+    org.hibernate.SQL: OFF
+    org.hibernate.type.descriptor.sql: OFF
+    org.springframework.orm.jpa: OFF
+    org.springframework.transaction: OFF
+    org.postgresql: OFF
