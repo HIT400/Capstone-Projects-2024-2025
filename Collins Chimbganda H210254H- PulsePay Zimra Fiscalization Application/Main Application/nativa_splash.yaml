@@ -1,0 +1,13 @@
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+
+  color: "#ffffff" # Background color of the splash screen
+  image: "assets/tallyTap.png"
+  branding: "assets/tax.PNG"
+
+  android_12:
+    color: "#ffffff" # Background color of the splash screen
+    image: "assets/tallyTap.png"
+    branding: "assets/tax.PNG"
