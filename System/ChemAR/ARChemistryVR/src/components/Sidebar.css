@@ -1,0 +1,39 @@
+.menu-toggle {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-left: 10px;
+    color: white;
+  }
+  
+  .sidebar-content {
+    background-color: #1e1e2d;
+    color: white;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  IonMenu {
+    width: 250px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  IonMenu.collapsed {
+    width: 80px;
+  }
+  
+  IonItem {
+    color: white;
+    --background: #252537;
+    --border-radius: 10px;
+    margin: 5px 10px;
+    transition: 0.3s;
+  }
+  
+  IonItem:hover {
+    background: #3a3a56;
+  }
+  
+  IonIcon {
+    font-size: 1.5rem;
+    color: white;
+  }
+  

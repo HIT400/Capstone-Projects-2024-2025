@@ -1,0 +1,98 @@
+
+  .no-scroll {
+    --overflow: hidden;
+  }
+  
+  .element-info-card {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    max-width: 400px;
+    z-index: 10;
+    opacity: 0.85;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .element-info-card:hover {
+    opacity: 1;
+  }
+  
+  .element-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+    min-width: 80px;
+  }
+  
+  .stat-item ion-badge {
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    border-radius: 16px;
+  }
+  
+  .element-shells {
+    margin-top: 16px;
+  }
+  
+  .shell-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .shell-chip {
+    font-size: 0.9em;
+    height: 28px;
+  }
+  
+  .xr-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .xr-button {
+    --border-radius: 20px;
+    --padding-start: 16px;
+    --padding-end: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .element-info-card {
+      bottom: 10px;
+      left: 10px;
+      width: calc(100% - 20px);
+    }
+    
+    .xr-buttons {
+      top: 10px;
+      right: 10px;
+    }
+  }
+  
+  /* Animation for model loading */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .three-container {
+    animation: fadeIn 1s ease-in-out;
+  }

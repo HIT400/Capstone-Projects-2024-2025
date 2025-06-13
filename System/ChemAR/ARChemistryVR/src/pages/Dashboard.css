@@ -1,0 +1,217 @@
+.custom-card {
+  transition: all 0.3s ease-in-out;
+  border-width: 2px;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card:active {
+  transform: scale(0.98);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-card {
+  transition: all 0.3s ease-in-out; /* Smooth scaling and shadow transition */
+  cursor: pointer;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.card-body {
+  transition: transform 0.3s ease-in-out; /* Smooth transform transitions for content */
+}
+
+/* Dashboard.css */
+
+/* Welcome card styling */
+.welcome-container {
+  margin-bottom: 2rem;
+}
+
+.welcome-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-icon {
+  font-size: 3rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-text h2 {
+  margin: 0;
+  font-weight: 600;
+  color: #333;
+}
+
+.welcome-text p {
+  margin: 0.5rem 0 0;
+  color: #666;
+}
+
+/* Dashboard cards styling */
+.dashboard-container {
+  margin-top: 1rem;
+}
+
+.dashboard-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.dashboard-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.dashboard-card p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Student card specific styles */
+.student-card .card-icon {
+  background-color: rgba(var(--ion-color-primary-rgb), 0.1);
+  color: var(--ion-color-primary);
+}
+
+.student-card .theory-icon {
+  background-color: rgba(52, 152, 219, 0.1);
+  color: #3498db;
+}
+
+.student-card .game-icon {
+  background-color: rgba(231, 76, 60, 0.1);
+  color: #e74c3c;
+}
+
+.student-card .ar-icon {
+  background-color: rgba(52, 73, 94, 0.1);
+  color: #34495e;
+}
+
+.student-card .progress-icon {
+  background-color: rgba(46, 204, 113, 0.1);
+  color: #2ecc71;
+}
+
+/* Teacher card specific styles */
+.teacher-card .card-icon {
+  background-color: rgba(155, 89, 182, 0.1);
+  color: #9b59b6;
+}
+
+.teacher-card:nth-child(2) .card-icon {
+  background-color: rgba(230, 126, 34, 0.1);
+  color: #e67e22;
+}
+
+.teacher-card:nth-child(3) .card-icon {
+  background-color: rgba(41, 128, 185, 0.1);
+  color: #2980b9;
+}
+
+.teacher-card:nth-child(4) .card-icon {
+  background-color: rgba(22, 160, 133, 0.1);
+  color: #16a085;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .welcome-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .welcome-icon {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .dashboard-card {
+    padding: 1.25rem;
+  }
+}
+
+/* Fix for Bootstrap compatibility */
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.col {
+  flex: 1 0 0%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.row-cols-1 > * {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .row-cols-md-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .row-cols-lg-3 > * {
+    flex: 0 0 auto;
+    width: 33.333333%;
+  }
+}
+
+.g-4 {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 1.5rem;
+}
+
+/* Remove text decoration underline */
+.text-decoration-none {
+  text-decoration: none;
+}

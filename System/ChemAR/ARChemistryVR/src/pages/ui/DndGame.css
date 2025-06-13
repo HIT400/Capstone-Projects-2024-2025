@@ -1,0 +1,160 @@
+/* DndGame.css */
+
+/* General styles */
+.game-toolbar {
+    --min-height: 60px;
+  }
+  
+  /* Symbol elements */
+  .symbol-item {
+    transition: transform 0.2s ease;
+  }
+  
+  .symbol-item:hover, .symbol-item:active {
+    transform: scale(1.05);
+  }
+  
+  .element-chip {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .element-chip:hover, .element-chip:active {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    --background: #0066cc;
+  }
+  
+  /* Drop zone */
+  .drop-zone {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .drop-zone:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Success animation */
+  .animate-success {
+    animation: pulse 1.5s;
+    border-color: #28a745 !important;
+    background-color: rgba(40, 167, 69, 0.1) !important;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+    }
+    
+    50% {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px 10px rgba(40, 167, 69, 0.5);
+    }
+    
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+    }
+  }
+  
+  /* Control buttons */
+  .control-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .control-btn {
+    --padding-start: 15px;
+    --padding-end: 15px;
+    --padding-top: 12px;
+    --padding-bottom: 12px;
+    margin: 0 5px;
+  }
+  
+  /* Status chips */
+  .status-chip {
+    font-size: 1.1rem;
+    height: 32px;
+    padding: 0 16px;
+  }
+  
+  /* Progress bar */
+  .custom-progress {
+    height: 12px !important;
+    border-radius: 6px;
+  }
+  
+  .progress-container {
+    margin-bottom: 20px;
+  }
+  
+  .progress-label, .progress-percentage {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  /* Question card */
+  .question-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.15);
+    border-left: 5px solid #007bff;
+  }
+  
+  /* Instructions card */
+  .instructions-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #6c757d;
+  }
+  
+  /* Formula display */
+  .formula-display {
+    background-color: rgba(0, 123, 255, 0.05);
+    border-radius: 8px;
+    min-width: 80%;
+  }
+  
+  /* Modal customization */
+  .completion-modal .modal-content {
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .congratulations-header {
+    background-color: #007bff;
+    color: white;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .trophy-icon {
+    display: flex;
+    justify-content: center;
+    animation: float 2s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    .control-btn {
+      --padding-start: 10px;
+      --padding-end: 10px;
+    }
+    
+    .formula-display {
+      font-size: 2rem !important;
+    }
+  }

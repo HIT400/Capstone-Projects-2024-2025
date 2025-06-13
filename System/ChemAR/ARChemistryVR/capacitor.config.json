@@ -1,0 +1,8 @@
+{
+    "name": "ARChemistryVR",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react-vite"
+  }
+  
