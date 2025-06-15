@@ -1,0 +1,34 @@
+# Ignore the breast cancer model
+app/breast_cancer_classifier.h5
+
+# Ignore the uploads directory
+uploads/
+
+# Ignore SQLite database if you don't want to include it
+cancer_classifier.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual Environments
+fastapi-todo-env/
+env/
+venv/
+*.env
+
+# Machine Learning model files
+*.h5
+*.model
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

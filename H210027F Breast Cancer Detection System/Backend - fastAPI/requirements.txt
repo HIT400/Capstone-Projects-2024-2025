@@ -1,0 +1,12 @@
+tensorflow
+pandas
+numpy
+scikit-learn
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-dotenv
+passlib
+pyjwt
+opencv-python
