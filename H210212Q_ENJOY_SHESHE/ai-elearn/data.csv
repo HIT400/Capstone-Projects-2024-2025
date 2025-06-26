@@ -1,0 +1,21 @@
+﻿user_id,interests,quiz_avg,recommended_course
+1,"AI,Data",85,Machine Learning Basics
+2,"Web Dev,UI/UX",70,Frontend Development
+3,"AI,Robotics",40,AI for Beginners
+4,"Business,Marketing",75,Digital Marketing
+5,"Data,AI,Python",90,Deep Learning with Python
+6,"UI/UX,Graphic Design",60,Design Principles
+7,"Web Dev,JavaScript",80,React for Beginners
+8,"Marketing,SEO",50,Intro to Digital Ads
+9,"Cybersecurity,Networking",65,Network Security Basics
+10,"Data,Analytics",88,Data Visualization with Power BI
+11,"Python,AI",45,Python for Beginners
+12,"Business,Entrepreneurship",70,Startup Fundamentals
+13,"AI,NLP",78,Introduction to Natural Language Processing
+14,"Web Dev,PHP",55,Laravel Crash Course
+15,"Cloud,DevOps",85,AWS Essentials
+16,"AI,ML,Python",92,Advanced Machine Learning
+17,"Data,Excel",60,Excel for Data Analysis
+18,"Marketing,Social Media",72,Social Media Strategies
+19,"Networking,Hardware",50,IT Support Basics
+20,"AI,Ethics",67,AI Ethics and Society
